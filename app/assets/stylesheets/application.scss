@@ -84,6 +84,9 @@ body {
   padding: 40px;
   border: 1px solid #eeefef;
   border-radius: 3px;
+  input.string {
+    width: 100%;
+  }
 }
 
 .edit_links {
