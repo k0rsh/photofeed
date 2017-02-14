@@ -45,8 +45,8 @@ SimpleForm.setup do |config|
 
     ## Inputs
     b.use :label_input
-    b.use :hint,  wrap_with: { tag: :span, class: :hint }
-    b.use :error, wrap_with: { tag: :span, class: :error }
+    b.use :hint,  wrap_with: { tag: :div, class: :hint }
+    b.use :error, wrap_with: { tag: :div, class: :error }
 
     ## full_messages_for
     # If you want to display the full error message for the attribute, you can
@@ -76,7 +76,8 @@ SimpleForm.setup do |config|
   config.error_notification_tag = :div
 
   # CSS class to add for error notification helper.
-  config.error_notification_class = 'error_notification'
+  # config.error_notification_class = 'error_notification'
+  config.error_notification_class = 'alert alert-danger'
 
   # ID to add for error notification helper.
   # config.error_notification_id = nil
