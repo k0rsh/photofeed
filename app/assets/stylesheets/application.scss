@@ -69,15 +69,16 @@ body {
     color: #125688;
     font-size: 15px;
     line-height: 18px;
-    .user-name, .time-ago {
+    .user-name {
       display: inline;
+    }
+    .timestamp {
+      display: inline;
+      color: #bbb;
+      float: right;
     }
     .user-name {
       font-weight: 500;
-    }
-    .time-ago {
-      color: #A5A7AA;
-      float: right;
     }
   }
   .image {
@@ -198,4 +199,17 @@ body {
   h1 {
     text-align: center;
   }
+}
+
+
+/* ## Post form styling */
+#image-preview {
+  margin: 0px auto;
+  max-height: 400px;
+  max-width: 400px;
+}
+
+#post_image {
+  padding: 1em;
+  margin: 0px auto;
 }
