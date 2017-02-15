@@ -7,6 +7,7 @@ end
 
 gem 'bootstrap-sass'
 gem 'devise'
+gem 'jquery-turbolinks'
 gem 'haml'
 gem 'kaminari'
 gem 'paperclip'
