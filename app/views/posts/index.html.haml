@@ -1,2 +1,4 @@
--@posts.reverse.each do |post|
-  = render 'post', post: post
+#posts
+  = render 'posts'
+#paginator.text-center
+  = link_to_next_page @posts, 'Load more', remote: true, id: 'load_more'

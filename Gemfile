@@ -8,6 +8,7 @@ end
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'haml'
+gem 'kaminari'
 gem 'paperclip'
 gem 'simple_form'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
